@@ -15,4 +15,8 @@ The report compares classical approaches, such as Pearson correlation and cross-
 The analyzed system is:
 
 ```math
-X(t + 1) = X(t) [ r_X - r_X X(t) - \beta_{XY} Y(t) ]
+\begin{cases}
+X(t + 1) = X(t) \left[ r_X - r_X X(t) - \beta_{XY} Y(t) \right] \\
+Y(t + 1) = Y(t) \left[ r_Y - r_Y Y(t) - \beta_{YX} X(t) \right]
+\end{cases}
+```
